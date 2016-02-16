@@ -54,8 +54,10 @@ You can download a precompiled version of Sequence Filter directly from github r
 you need to download both Jillion and JOpt Simple libraries. You can download Jillion library using the link provided in the chapter above (Maven Build) whereas you can download 
 JOpt Simple from [here](http://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar "download"). Once downloaded, place the two jar files into the library folder
 called ```sequence-filter-0.0.1-SNAPSHOT_lib```. The jar files must be named as follows (case sensitive):
+
 * Jillion library -> jillion-5.1.jar
-* JOpt Simple     -> jopt-simple-4.9.jar  
+* JOpt Simple     -> jopt-simple-4.9.jar
+
 Now you can test your installation by typing ```java -jar sequence-filter-0.0.1-SNAPSHOT.jar --help``` from inside the project folder (where the jar file is).
 
 ## Usage ##
