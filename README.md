@@ -41,7 +41,7 @@ destination folder using your terminal (or the command prompt if you are a Windo
 ```
 mvn package
 ```
-When Maven has finished you should have your jar file in the traget directory (the runnable jar is the one without the "original" prefix). Copy the generated jar into the desired diretory and
+When Maven has finished you should have your jar file in the target directory (the runnable jar is the one without the "original" prefix). Copy the generated jar into the desired diretory and
 you can get rid of the cloned repository directory. Now you can move into the jar folder and type:
 ```
 java -jar <generated_jar> --help
@@ -55,7 +55,7 @@ you need to download both Jillion and JOpt Simple libraries. You can download Ji
 JOpt Simple from [here](http://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar "download"). Once downloaded, place the two jar files into the library folder
 called ```sequence-filter-0.0.1-SNAPSHOT_lib```. The jar files must be named as follows (case sensitive):
 * Jillion library -> jillion-5.1.jar
-* JOpt Simple     -> jopt-simple-4.9.jar
+* JOpt Simple     -> jopt-simple-4.9.jar  
 Now you can test your installation by typing ```java -jar sequence-filter-0.0.1-SNAPSHOT.jar --help``` from inside the project folder (where the jar file is).
 
 ## Usage ##
